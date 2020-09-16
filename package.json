@@ -1,0 +1,50 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "expo": "~38.0.9",
+    "expo-splash-screen": "^0.5.0",
+    "expo-status-bar": "^1.0.0",
+    "expo-updates": "~0.2.10",
+    "polished": "^3.6.6",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "~0.62.2",
+    "react-native-gesture-handler": "~1.6.1",
+    "react-native-paper": "^4.1.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-screens": "~2.9.0",
+    "react-native-svg": "12.1.0",
+    "react-native-unimodules": "~0.10.1",
+    "react-native-web": "~0.11.7",
+    "styled-components": "^5.2.0",
+    "victory": "^35.0.9",
+    "victory-native": "^35.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "~25.2.6",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "jest": "~25.2.6",
+    "prettier": "^2.1.1",
+    "react-test-renderer": "~16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
